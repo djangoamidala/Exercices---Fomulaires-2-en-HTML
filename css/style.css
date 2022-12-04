@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+section {
+    text-align: center;
+    margin: auto;
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/world.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+form {
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 20px;
+    width: 300px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(29, 17, 61, 0.432);
+}
+::placeholder {
+    color: white;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    background-color: rgba(255, 0, 0, 0.464);
+}
+input:focus {
+    background-color:rgba(198, 157, 103);
+    color: white;
+}
+textarea {
+    width: 187px;
+    margin-top: 10px;
+    background-color: rgba(29, 17, 61, 0.432);
+    
+}
+#choose {
+    display: block;
+}
