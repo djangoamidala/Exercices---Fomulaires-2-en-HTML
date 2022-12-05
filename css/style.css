@@ -20,7 +20,7 @@ form {
 }
 input {
     padding: 10px;
-    margin: 10px;
+    margin: 8px;
     background-color: rgba(29, 17, 61, 0.432);
 }
 ::placeholder {
@@ -42,11 +42,24 @@ input:focus {
     color: white;
 }
 textarea {
-    width: 187px;
+    width: 220px;
     margin-top: 10px;
     background-color: rgba(29, 17, 61, 0.432);
     
 }
 #choose {
     display: block;
+}
+h1 {
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+label {
+    font-size: 0.7em;
+}
+#langage {
+    display: block;
+    margin: auto;
 }
