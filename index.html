@@ -16,34 +16,33 @@
 
 <body>
     <section>
-        <div class="backgroundform">
-            <form class="formpage" action="">
-                <h1>Welcome in the world</h1>
-                <div>
-                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
-                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-                </div>
-                <div>
-                    <input type="text" name="Email" id="Email" placeholder="Email Address">
-                    <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
-                </div>
-                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Type your Message"></textarea>
-                <div class="flex">
-                    <label for="cars">Langage:</label>
-                    <select id="langage" name="langage" aria-placeholder="Choose">
-                </div>
-                <option value="Français">Français</option>
-                <option value="Anglais">Anglais</option>
-                <option value="Italien">Italien</option>
-                <option value="Chinois">Chinois</option>
-                <option value="Japonais">Japonais</option>
-        </div>
-        </select>
-        <input type="checkbox" id="horns" name="horns">
-        <label for="horns" class="horns">J'accepte les politiques de confidentialités</label>
-        <button type="submit">SUBMIT</button>
+        <form action="formulaire.php">
+            <h1>Welcome in the world</h1>
+            <div>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+            </div>
+            <div>
+                <input type="text" name="Email" id="Email" placeholder="Email Address" required>
+                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required>
+            </div>
+            <textarea name="Message" id="Message" placeholder="Type your Message" required></textarea>
+            <div class="flex">
+                <label>Langage:</label>
+                <select name="langage">
+                    <option value="Français">Français</option>
+                    <option value="Anglais">Anglais</option>
+                    <option value="Italien">Italien</option>
+                    <option value="Chinois">Chinois</option>
+                    <option value="Japonais">Japonais</option>
+                </select>
+            </div>
+            <input type="checkbox" id="horns" name="horns">
+            <label class="horns">J'accepte les politiques de confidentialités</label>
+            <button type="submit">Enter in the world</button>
         </form>
     </section>
+
 </body>
 
 </html>
