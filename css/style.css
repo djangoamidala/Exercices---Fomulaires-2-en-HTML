@@ -46,14 +46,19 @@ input:focus {
     color: white;
 }
 textarea {
-    width: 175px;
+    width: 185px;
     background-color: rgba(29, 17, 61, 0.432);
     margin-top: 5px;
     min-height: 50px;
     height: 100px;
-    max-height: 200px;
     resize: vertical;
 }
+@-moz-document url-prefix() {
+    textarea {
+    width: 210px;
+    }
+}
+
 textarea:focus {
     background-color:rgba(198, 157, 103);
 }
@@ -76,11 +81,8 @@ label {
         width: 500px;
     }
     textarea {
-        width: 385px;
-        font-size: 1.3em;
-    }
-    input {
-        font-size: 0.9em;
+        width: 390px;
+
     }
     label {
         font-size: 1.1em;
@@ -88,4 +90,10 @@ label {
     h1 {
         font-size: 2em;
     }
+    @-moz-document url-prefix() {
+        textarea  {
+        width: 440px;
+        }
+    }
+}
 }
